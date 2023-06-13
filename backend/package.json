@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a research based blog website",
+  "main": "index.js",
+  "author": "dhoolkarnain(sufyan)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.4",
+    "nodemon": "^2.0.22"
+  }
+}
