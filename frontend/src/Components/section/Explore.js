@@ -1,24 +1,27 @@
 import React from 'react'
+import World from './image/world.png'
+import Thinking from './image/creativeThinking.png'
+import Reading from './image/reading.png'
 
 const Explore = () =>
 {
     return (
         <div className="explore-section">
-            <h3 className='explore-title'>Explore More..</h3>
+            <h3 className='explore-title'>Explore...</h3>
             <div className='explore-box__container'>
                 <div className="explore-box">
-                    <img src="https://blog.hubspot.com/hubfs/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/modules/learning-paths/ig-marketing.jpg" alt="Topic 1" className="explore-image" />
-                    <h3 className="explore-topic">Instagram Marketing</h3>
+                    <img src={World} alt="Topic 1" className="explore-image" />
+                    <h3 className="explore-topic">World Wide Topics</h3>
                 </div>
                 <div className="explore-box">
-                    <img src="https://blog.hubspot.com/hubfs/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/modules/learning-paths/customer-retention.jpg" alt="Topic 2" className="explore-image" />
+                    <img src={Thinking} alt="Topic 2" className="explore-image" />
                     <h3 className="explore-topic">
-                        Customer Retention</h3>
+                        ebook Available</h3>
                 </div>
                 <div className="explore-box">
-                    <img src="https://blog.hubspot.com/hubfs/assets/hubspot.com/web-team/WBZ/HubSpot%20Media/Blog%202021/Images/modules/learning-paths/email-marketing.jpg" alt="Topic 3" className="explore-image" />
+                    <img src={Reading} alt="Topic 3" className="explore-image" />
                     <h3 className="explore-topic">
-                        Email Marketing</h3>
+                        Anywhere Reading</h3>
                 </div>
             </div>
         </div >
